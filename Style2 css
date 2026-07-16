@@ -1,0 +1,179 @@
+/*==============================
+STATISTIQUES
+==============================*/
+
+.stats{
+
+    margin-top:-50px;
+    margin-bottom:80px;
+
+}
+
+.stats .container{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+
+}
+
+.card{
+
+    background:#fff;
+    padding:35px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card h2{
+
+    font-size:38px;
+    color:#2e7d32;
+    margin-bottom:10px;
+
+}
+
+.card p{
+
+    color:#777;
+}
+
+/*==============================
+ABOUT
+==============================*/
+
+.about{
+
+    padding:100px 0;
+
+}
+
+.about-content{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+
+}
+
+.about-text span{
+
+    color:#2e7d32;
+    font-weight:600;
+    text-transform:uppercase;
+
+}
+
+.about-text h2{
+
+    font-size:42px;
+    margin:15px 0 20px;
+
+}
+
+.about-text p{
+
+    color:#666;
+    margin-bottom:25px;
+
+}
+
+.about-text ul li{
+
+    margin-bottom:15px;
+    font-size:17px;
+
+}
+
+.about-text i{
+
+    color:#2e7d32;
+    margin-right:10px;
+
+}
+
+/*==============================
+SERVICES
+==============================*/
+
+.services{
+
+    padding:100px 0;
+    background:#f5f8f4;
+
+}
+
+.section-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    font-size:42px;
+    color:#1b5e20;
+
+}
+
+.section-title p{
+
+    color:#666;
+
+}
+
+.service-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+
+}
+
+.service-card{
+
+    background:#fff;
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.07);
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.service-card i{
+
+    font-size:55px;
+    color:#2e7d32;
+    margin-bottom:20px;
+
+}
+
+.service-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.service-card p{
+
+    color:#666;
+
+}
